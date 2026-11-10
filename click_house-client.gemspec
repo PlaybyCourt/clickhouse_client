@@ -23,7 +23,7 @@ Gem::Specification.new do |spec|
   spec.add_runtime_dependency "activerecord", ">= 6.1", "< 9.0"
   spec.add_runtime_dependency "activesupport", ">= 6.1", "< 9.0"
   spec.add_runtime_dependency "addressable", "~> 2.8"
-  spec.add_runtime_dependency "json", "~> 2.7"
+  spec.add_runtime_dependency "json", ">= 2.7", "< 4.0"
 
   spec.add_development_dependency "byebug"
   spec.add_development_dependency "gitlab-styles", "~> 12.0.1"
